@@ -83,3 +83,9 @@ element.style {
     -webkit-clip-path: polygon(0 0,100% 72%,100% 100%,0 100%);
     clip-path: polygon(0 0,100% 72%,100% 100%,0 100%);
 }
+.navbar, .nav-logo {
+    min-height: 30px;
+    max-height: 35px;
+    min-width: 90px;
+    max-width: 137px;
+}
