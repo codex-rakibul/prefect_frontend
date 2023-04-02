@@ -1,3 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+.btn {
+  @apply rounded cursor-pointer;
+  background-image: linear-gradient(90deg, #91ebff, #8497ff);
+}
+element.style {
+    min-width: 150px;
+}
+.rounded {
+    border-radius: 0.25rem;
+}
+.relative {
+    position: relative;
+}
+.btn-primary {
+    background-image: linear-gradient(90deg,#91ebff,#8497ff);
+   
+}
+.btn,.btn2,
+.btn:active,
+.btn:link,
+.btn:visited,
+.prefect-button,
+.prefect-button:active,
+.prefect-button:link,
+.prefect-button:visited { 
+    position: relative;
+    text-transform: uppercase;
+    overflow: hidden;
+    font-family: input-sans,Courier New,Courier,monospace;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #090422;
+    -webkit-clip-path: polygon(0 0,0 0,100% 0,100% 0,100% calc(100% - 15px),calc(100% - 15px) 100%,15px 100%,0 100%);
+    clip-path: polygon(0 0,0 0,100% 0,100% 0,100% calc(100% - 15px),calc(100% - 15px) 100%,15px 100%,0 100%);
+    height: 40px;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1.2px;
+    transition: .2s .1s;
+}
+.btn2{
+    background-color: white;
+}
+.btn .shift-up, .btn:active .shift-up, .btn:link .shift-up, .btn:visited .shift-up, .prefect-button .shift-up, .prefect-button:active .shift-up, .prefect-button:link .shift-up, .prefect-button:visited .shift-up {
+    margin-top: 0;
+}
+.transition-all {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .15s;
+}
+.transform, .transform-gpu {
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+}
+.transform {
+    transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.gradient-1 {
+    z-index: -2;
+    background: linear-gradient(180deg,#090422,#0052ff 100.05%);
+}
+.gradient-2 {
+    z-index: -1;
+    margin-top: 100px;
+    background: linear-gradient(106.34deg,rgba(44,207,254,0) .99%,#0052ff 70.36%,#2ccefe 97.51%);
+    -webkit-clip-path: polygon(0 0,100% 72%,100% 100%,0 100%);
+    clip-path: polygon(0 0,100% 72%,100% 100%,0 100%);
+}

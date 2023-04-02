@@ -8,6 +8,9 @@ module.exports = {
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  fontFamily: {
+    barlow: ["Barlow", "sans-serif"],
+  },
   theme: {
     extend: {},
   },
