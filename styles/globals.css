@@ -94,3 +94,7 @@ element.style {
 .rotator {
     position: relative;
 }
+.core-section {
+    padding-top: 160px;
+    background: #090422;
+}

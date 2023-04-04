@@ -9,7 +9,7 @@ export default function HeroSection() {
       <div className="gradient-2 absolute object-cover w-full h-full"></div>
       <div
         className="absolute object-cover w-auto h-full opacity-40"
-        style={{ top: "-350px" }}
+        style={{ top: "-318px" }}
       >
         <Image src={Svgexport} />
       </div>
@@ -17,7 +17,7 @@ export default function HeroSection() {
         className="absolute object-cover right  h-full invisible xl:visible opacity"
         style={{ top: "30px" }}
       >
-        <Image src={Svgexport} />
+        {/* <Image src={Svgexport} /> */}
       </div>
 
       <Navbar />
