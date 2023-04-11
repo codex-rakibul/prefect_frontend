@@ -2,24 +2,24 @@ import React from "react";
 import Svgexport from "../../public/assets/Deploy and scale on Cloud.svg";
 import Copy from "../../public/assets/svgexport-28.svg";
 import Image from "next/image";
-import SyntaxHighlighter from 'react-syntax-highlighter';
-import { tomorrowNightBlue } from 'react-syntax-highlighter/dist/esm/styles/hljs'
+// import SyntaxHighlighter from 'react-syntax-highlighter';
+// import { docco } from 'react-syntax-highlighter/dist/esm/styles/hljs'
 
 export default function CoreSection() {
-  const text = `from prefect import flow, task
+  const text = `  from prefect import flow, task
 
-@task
-def say_hello():
-	print("Hello, World! I'm Marvin!")
-
-
-@flow("Prefect 2.0 Flow"):
-def marvin_flow():
-	say_hello()
+  @task
+  def say_hello():
+    print("Hello, World! I'm Marvin!")
 
 
-marvin_flow() # "Hello, World! I'm Marvin!"
-  `;
+  @flow("Prefect 2.0 Flow"):
+  def marvin_flow():
+    say_hello()
+
+
+  marvin_flow() # "Hello, World! I'm Marvin!"`;
+
   return (
     <section className="core-section ">
       <section className="text-white body-font ">
@@ -62,17 +62,18 @@ marvin_flow() # "Hello, World! I'm Marvin!"
         </div>
       </section>
       <div className="mx-28 pb-40 ">
-        <SyntaxHighlighter
+        {/* <SyntaxHighlighter
           language="python"
-          style={tomorrowNightBlue}
+          style={docco}
           customStyle={{
+            outlineColor:"blue",
             padding: "30px",
           }}
           showLineNumbers={true}
           wrapLongLines={true}
         >
           {text}
-        </SyntaxHighlighter>
+        </SyntaxHighlighter> */}
         <div className="bg-gray-700  flex flex-wrap justify-between">
           <div></div>
           <div style={{ background: "#0e50f5", padding: "10px 35px" }}>

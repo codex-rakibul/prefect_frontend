@@ -3,8 +3,11 @@ import { Inter } from 'next/font/google'
 import Navbar from '@/components/navbar'
 import HeroSection from '@/components/hero'
 import CoreSection from '@/components/core-section'
+import CloudSection from '@/components/cloud-section'
+import ClientSection from '@/components/clients-section'
+import WhatsNew from '@/components/whats-new-section'
+import WhyPrefect from '@/components/why-prefect'
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
@@ -17,7 +20,10 @@ export default function Home() {
       </Head>
       <HeroSection/>
       <CoreSection/>
-      
+      <CloudSection/>
+      <ClientSection/>
+      <WhatsNew/>
+      <WhyPrefect/>
     </div>
   )
 }
