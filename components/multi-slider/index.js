@@ -30,7 +30,7 @@ const images = [
 ];
 export default function MultiSlider1({time}) {
   return <div className="bg-gray-200">
-    <Swiper
+    <Swiper 
           slidesPerView={1}
           spaceBetween={30}
           autoplay={{

@@ -7,23 +7,31 @@ import { Autoplay, Navigation, Mousewheel, Keyboard } from "swiper";
 const alldata = [
   {
     id: 1,
+    img:"",
     title: " Lorem ipsum dolor sit amet consectetur",
     decs: "adipisicing elit. Fuga, impedit totam beatae nobis magnam optio asperiores magni. Cum officia omnis est commodi culpa. Voluptatem labore a, atque debitis amet possimus?,",
+    link: "https://github.com/PrefectHQ/prefect/blob/main/RELEASE-NOTES.md#release-2100 ",
   },
   {
     id: 2,
+    img:"",
     title: " Lorem ipsum dolor sit amet consectetur",
     decs: "adipisicing elit. Fuga, impedit totam beatae nobis magnam optio asperiores magni. Cum officia omnis est commodi culpa. Voluptatem labore a, atque debitis amet possimus?,",
+    link: "https://github.com/PrefectHQ/prefect/blob/main/RELEASE-NOTES.md#release-2100",
   },
   {
     id: 3,
+    img:"",
     title: " Lorem ipsum dolor sit amet consectetur",
     decs: "adipisicing elit. Fuga, impedit totam beatae nobis magnam optio asperiores magni. Cum officia omnis est commodi culpa. Voluptatem labore a, atque debitis amet possimus?,",
+    link: "https://github.com/PrefectHQ/prefect/blob/main/RELEASE-NOTES.md#release-2100",
   },
   {
     id: 4,
+    img:"",
     title: " Lorem ipsum dolor sit amet consectetur",
     decs: "adipisicing elit. Fuga, impedit totam beatae nobis magnam optio asperiores magni. Cum officia omnis est commodi culpa. Voluptatem labore a, atque debitis amet possimus?,",
+    link: "https://github.com/PrefectHQ/prefect/blob/main/RELEASE-NOTES.md#release-2100",
   },
 ];
 
@@ -38,7 +46,6 @@ export default function WhatsNew() {
         spaceBetween={50}
         autoplay={{
           delay: 2000,
-          
         }}
         modules={[Autoplay, Navigation, Mousewheel, Keyboard]}
         className="mySwiper"
